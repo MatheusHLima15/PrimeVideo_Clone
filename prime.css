@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "amazon";
+    src: url(../PrimeVideo/Itens/AmazonEmber_Lt.woff);
+}
+
+@font-face {
+    font-family: "amazon2";
+    src: url(Itens/AmazonEmber_Rg.woff);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-repeat: no-repeat;
+  background-image: url(Itens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+background-size: cover;
+background-image: linear-gradient(to bottom black , white );
+}
+
+nav{
+ background-color: #00050d;   
+width: auto;
+height: 35px;
+text-align: center;
+justify-content: space-evenly;
+}
+
+a{
+    font-family: "amazon2";
+    color: #eaeaeadc;
+text-decoration: none;
+font-size: medium;
+
+}
+
+.logo{
+    float:inline-start;
+    width: 155px;
+    height: auto;
+}
+
+.profile{
+    float: right;
+    width: 30px;
+    height: auto;
+}
+
+.lupa{
+    width: 20px;
+}
+
+h1{
+    font-family: "amazon2";
+    color: white;
+width: 30%;
+height: 200px;
+}
+
+h3{
+  color: white;
+  font-family: "amazon2";
+ width: 27%
+ 
+}
+
