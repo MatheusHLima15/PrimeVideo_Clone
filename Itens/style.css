@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#bg-img1{
+    background-image: url(../Itens/1115479-3840x2160-desktop-4k-antony-starr-wallpaper.jpg);
+    
+}
+
+#bg-img2{
+    background-image: url(../Itens/1329876.png);
+    
+}
+
+
+#bg-img3{
+    background-image: url(../Itens/771127.jpg);
+    
+}
+
+
+#bg-img4{
+    background-image: url(../Itens/thumb-1920-1292972.jpg);
+    
+}
+
+h2{
+    color: rgb(0, 247, 255);
+    font-size: 100px;
+    text-shadow: 0 0 5px black;
+}
