@@ -90,7 +90,6 @@ header a:hover{
 }
 main{
     width: 100%;
-    height: 1000px;
 }
 section:nth-child(1){
     background-image: url(images/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
@@ -161,28 +160,24 @@ p{
     color: var(--branco);
 }
 .container2{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     margin-top: 15px;
     
-
 }
 
 .left{
     width: 50%;
     height: auto;
-    margin: 20px 50px;
+    margin-left: 20px;
     font-weight: lighter;
     font-size: 50px;
     
 
 }
 .right{
-    width: 50%;
-    height: 100%;
-    
-   
+    width: 50%;    
 }
 .right img{
     width: 260px;
@@ -191,9 +186,12 @@ p{
 }
 .container3{
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-image: url(images/MLP_BG_left_1440x675.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: right;
 }
 
 .footer-panel-3{
@@ -204,24 +202,109 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "amazon";
 }
+
+
 
 .logoBottom{
     background-image: url(images/web_footer_logo._CB462908456_.png);
-    background-size: cover;
-    height: 50px;
-    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 110px;
+
 }
 
 .footer-panel-4{
     background-color: #222f3d;
     height: 80px;
+    padding: 5px;
 }
 
+.container3 p{
+    margin-bottom: 50px;
+    font-size: 21px;
+}
 
-.copyright p{
+.copyright > p{
     padding-top: 5px;
-    font-size: 0.85rem;
+    font-size: 0.85em;
     text-align: center;
     color: white
+}
+.gradient-prime{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(270deg, #000000 40%, #ffffff00 58%);
+    color: #ffffff;
+}
+.loja-prime{
+ padding-left: 54.5%;
+ width: 100%;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding-top: 10%;   
+}
+
+.loja-prime p{
+    margin-bottom: 50px;
+    font-size: 21px;
+}
+.container4{
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+   
+}
+.funcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.funcoes div{
+    width: 33%;
+    margin: 10px;
+}
+.funcoes h3{
+    font-weight: 400;
+    font-size: 35px;
+    
+}
+.funcoes p{
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-foot{
+    width: 23%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-decoration: none;
+}
+.link-foot a{
+    color:#0f79af;
+    font-weight: 100;
+    font-size: 14.5px;
+    
+}
+.direitos{
+    color: #858585;
+    font-weight: 100;
+    font-size: 15px;
 }
