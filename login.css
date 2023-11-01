@@ -14,8 +14,8 @@
     text-decoration: none;
 }
 img{
-    width: 150px;
-    height: 120px;
+    width: 200px;
+    height: 160px;
     
 }
 body{
@@ -61,10 +61,15 @@ fieldset{
     
     
 }
-input:focus{
-    outline: #00f7ff;
+#email:focus{
+    outline: 1px solid #00f7ff;
 
 }
+
+#senha:focus{
+    outline: 1px solid #00f7ff;
+}
+
 .senha{
     width: 100%;
     height: auto;
